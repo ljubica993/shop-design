@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+<head>
+    <title>My Page</title>
+    <link rel="stylesheet" type="text/css" href="mypage css/mypage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="mypage css/splide/splide.min.css">
+    <link rel="stylesheet" type="text/css" href="mypage css/splide/splide-core.min.css">
+    <link rel="stylesheet" type="text/css" href="mypage css/splide/themes/splide-default.min.css">
+    <link rel="stylesheet" type="text/css" href="mypage css/register.css">
+
+
+</head>
+
+<body class="body">
+
+    <div class="container">
+
+        <header id="header">   <!--Header-->
+
+            <div id="brand-name">            
+                <h2>BRAND (STORE) NAME</h2>
+            </div>
+
+            <div>
+                <form id="search-box">        <!--Search-->                                                     
+                    <i class="fa fa-search"></i>
+                  <input type="text" placeholder="Search...">
+                  
+               </form>
+            </div>
+
+            <div id="log-box">                  <!--Log in-->
+                <i class="fa fa-user"></i>
+                <p>My account</p>
+                <div class="dropdown-content">
+    
+                        <form class="login-form" action="" method="POST">
+                            <div>
+                                <label>Email:</label>
+                                <input class="login-form-input-field" type="email" name="email">
+                            </div>
+                            <div>
+                                <label>Password:</label>
+                                <input class="login-form-input-field" type="password" name="password">
+                            </div>
+                            <div class="submit">
+                                <input class="submit-field" type="submit" value="Log in" name="login">
+                            </div>
+                            <div class="register">
+                               <a href="#">Register</a>
+                            </div>
+                        </form>
+        
+                </div>
+            </div>
+
+            <div class="shopping-box">              <!--Shopping basket-->
+                <i class="fa fa-shopping-cart"></i>
+                <a href="shopping_cart.html"> Bag</a>
+            </div>
+        </header>
+        
+    <div class="clr"> </div>
+
+   <div class="menu">             <!--Nav bar-->
+        <ul class="menu-level-0">
+            <li class="level-0" id="level-0">
+                <span class="category" id="category-1">CATEGORY I</span>
+                <ul class="menu-level-1" id="submenu-1">
+                    <li>
+                        <span>CAT I</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+            
+                    </li>
+                    <li><span>CAT II</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>CAT III</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                    <li><span>CAT IV</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="level-0">
+                <span class="category" id="category-2">CATEGORY II</span>
+                <ul class="menu-level-1" id="submenu-2">
+                    <li>
+                        <span>CAT I</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                    <li><span>CAT II</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>CAT III</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                    <li><span>CAT IV</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="level-0">
+                <span class="category" id="category-3">CATEGORY III</span>
+                <ul class="menu-level-1" id="submenu-3">
+                    <li>
+                        <span>CAT I</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                    <li><span>CAT II</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>CAT III</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                    <li><span>CAT IV</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="level-0">
+                <span class="category" id="category-4">CATEGORY IV</span>
+                <ul class="menu-level-1" id="submenu-4">
+                    <li>
+                        <span>CAT I</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                    <li><span>CAT II</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>CAT III</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                    <li><span>CAT IV</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="level-0">
+                <span class="category" id="category-5">CATEGORY V</span>
+                <ul class="menu-level-1" id="submenu-5">
+                    <li>
+                        <span>CAT I</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                    <li><span>CAT II</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>CAT III</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                    <li><span>CAT IV</span>
+                        <ul class="menu-level-2">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                            <li><a href="#">list 5</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </li>
+        </ul>
+   </div>
+ 
+<div class=main>
+    <div class="register-form">
+
+        <h2> Register Here</h2>
+        <form id="form" method="POST">
+            <div>
+                <label>First Name:</label>
+                <br>
+                <input class="input-field" type="text" name="firstname">
+            </div>
+            <br>
+            <div>
+                <label>Last Name:</label>
+                <br>
+                <input class="input-field" type="text" name="lastname">
+            </div>
+            <br>
+            <div>
+                <label>Email:</label>
+                <br>
+                <input class="input-field" type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label>Password:</label>
+                <br>
+                <input class="input-field" type="password" name="password">
+            </div>
+            <br>
+            <div>
+                <label>Confirm Password:</label>
+                <br>
+                <input class="input-field" type="password" name="password">
+            </div>
+            <br>
+            <div>
+                <label>Address:</label>
+                <br>
+                <input class="input-field" type="text" name="adress">
+            </div>
+            <br>
+            <div>
+                <label>Town:</label>
+                <br>
+                <input class="input-field" type="type" name="town">
+            </div>
+            <br>
+            <div>
+                <label>Postcode/Zip:</label>
+                <br>
+                <input class="input-field" type="number" name="Postcode">
+            </div>
+            <br>
+            <div>
+                <label>Telephone:</label>
+                <br>
+                <input class="input-field" type="number" name="Telephone">
+            </div>
+            <br>
+            <div id="submit">
+                <input type="submit" value="Register" name="submit">
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="link1">
+        <p>TEXT</p>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </div>
+    <div class="link2">
+        <p>TEXT</p>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </div>
+    <div class="social-media">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+
+    </div>
+</div>
+<div class="clr"> </div>
+
+<div class="end">
+        <p> SPLIDE was used for slideshow. Find it here <a href="https://splidejs.com/"> www.splidejs.com</a></p>
+</div>
+    
+    
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/splide.min.js"></script>
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+            new Splide( '.splide' ).mount();
+        } );
+    </script>
+</body>
+</html> 

@@ -1,0 +1,307 @@
+
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+.clr{
+    clear: both;
+}
+
+input:focus{
+    outline: none;
+}
+
+.body {
+    font-family: 'Courier New', Courier, monospace;
+}
+#brand-name{                                            
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    background-color:white;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#search-box{
+    float: left;
+    width: 16%;
+    box-sizing: border-box;
+    background-color:white;
+    padding: 25px;
+    position: relative;
+}
+
+#search-box input{
+    padding: 7px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 2px solid white;
+   width: 65%;
+}
+
+#search-box button{
+    width: 20%;
+    padding: 6px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: white;  
+}
+
+#log-box{
+    float: left;
+    width:7%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 29px 10px 54px 10px;
+    position: relative;
+}
+
+#log-box i{
+    font-size: 21px;
+    text-align: center;
+    position: absolute;
+    left: 5px;
+}
+
+#log-box p{
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+
+.dropdown-content{
+    color: black;
+    z-index: 20;
+    display: none;
+    background-color:white;
+    float: right;
+    position: absolute;
+    left: 0px;
+    top: 60px;
+}
+
+#log-box:hover .dropdown-content {
+    display: block;
+}
+
+.login-form{
+    padding: 20px  25px 20px 25px;
+}
+
+.login-form label{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.login-form-input-field{
+   margin-bottom: 15px;
+   border-radius: 3px;
+   border-width: 0.5px;
+}
+
+.submit{
+    text-align: right;
+}
+.submit-field{
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+
+.register{
+    text-align: center;
+    margin-top: 15px;
+    padding: 3px;
+}
+
+.register a, .register a:visited {
+font-weight: bold;
+font-size: 14px;
+color: black;
+text-decoration: none;
+}
+
+.register:hover{
+    text-decoration: underline;
+}
+
+.shopping-box{
+    float: right;
+    width: 7%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    padding: 29px 10px 54px 10px;
+    position: relative;
+}
+
+.shopping-box i{
+    font-size: 21px;
+    text-align: left;
+    position: absolute;
+    left: 33px;
+}
+
+.shopping-box a{
+   font-size: 12px;
+   color: black;
+   position: absolute;
+   top: 33px;
+   right: 20px;
+   text-decoration: none;
+}
+
+.shopping-box a:hover{
+    text-decoration: underline;
+}
+
+.menu{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 30px;
+}
+
+.menu-level-0 li{
+    display: inline;
+    padding: 10px 20px 10px 0px;
+    color: black;
+    text-align: left;
+    
+}
+
+.menu-level-0 span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.menu-level-0 span {
+    color: black;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+.menu-level-1 {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 340px;
+    background-color: white;
+    padding-top: 40px;
+    padding-left: 175px;
+    padding-right: 150px;
+    padding-bottom: 40px;
+    letter-spacing: 0.5px;
+}
+
+.menu-level-2 {
+    padding-inline-start: 0px !important;
+}
+.menu-level-2 li {
+    display:block;
+    text-align: left;
+}
+
+.menu-level-2 li a {
+    text-decoration:none;
+    color: black;
+    text-align: left;
+}
+
+.menu-level-2 li a:hover {
+    text-decoration: underline;
+}
+
+
+
+.footer{
+    background-color: rgb(207, 196, 196);
+    margin-top: 5px;
+    padding: 0px;
+}
+
+.link1{
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.link1 a{
+    display: block;
+    padding-top: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.link1 a:hover{
+    text-decoration: underline;
+}
+
+.link2{
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.link2 a{
+    display: block;
+    padding-top: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.link2 a:hover{
+    text-decoration: underline;
+}
+
+.social-media {
+    text-align: center;
+    font-size: 30px;
+    padding:65px 0px;
+}
+
+.social-media a{
+    color: black;
+    letter-spacing: 10px;
+    text-decoration: none;
+}
+
+.social-media a:hover{
+    color: dimgrey;
+}
+
+
+.end{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+}
+
+
+
+
+
+
